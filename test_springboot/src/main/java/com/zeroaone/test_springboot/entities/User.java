@@ -1,6 +1,6 @@
 package com.zeroaone.test_springboot.entities;
 
-public class User {
+public class User implements Serializable{
     private String name;
     private String password;
 
