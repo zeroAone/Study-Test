@@ -7,6 +7,8 @@
     <groupId>com.zeroAone</groupId>
     <artifactId>Study-Test</artifactId>
     <version>1.0-SNAPSHOT</version>
-
+    <modules>
+        <module>test_springboot</module>
+    </modules>
 
 </project>
