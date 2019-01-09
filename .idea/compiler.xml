@@ -6,12 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="test_scala" />
         <module name="test_springboot" />
         <module name="test_springboot2" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="springboot_vue" target="1.7" />
+      <module name="test_scala" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

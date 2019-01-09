@@ -9,6 +9,9 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>test_springboot</module>
+        <module>test_scala</module>
+        <module>test_scala</module>
+        <module>test_scala</module>
     </modules>
 
 </project>
