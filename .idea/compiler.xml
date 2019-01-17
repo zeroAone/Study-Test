@@ -6,18 +6,22 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="demo" />
         <module name="test_scala" />
         <module name="test_springboot" />
         <module name="test_springboot2" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="myshow" target="1.8" />
       <module name="springboot_vue" target="1.7" />
       <module name="test_scala" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="demo" options="-parameters" />
+      <module name="myshow" options="-parameters" />
       <module name="test_springboot" options="-parameters" />
       <module name="test_springboot2" options="-parameters" />
     </option>
