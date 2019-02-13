@@ -13,6 +13,7 @@
         <module>demo</module>
         <module>test_threading</module>
         <module>test_java_base</module>
+        <module>test_java_algorithm</module>
     </modules>
 
 </project>
