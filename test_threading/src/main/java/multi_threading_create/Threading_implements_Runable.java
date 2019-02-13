@@ -1,16 +1,12 @@
-package multi_threading;
+package multi_threading_create;
 
-/**
- * 通过thread 创建线程
- */
-public class Threading_extends_Thread {
-   static class MyThreading extends Thread{
-        @Override
+public class Threading_implements_Runable {
+    static class MyThreading implements Runnable {
         public void run() {
-            while(true){
-                System.out.println("hello threading!!!");
+            while (true) {
                 try {
                     Thread.sleep(1000);
+                    System.out.println("Runnable hello Threading!!!");
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
@@ -19,7 +15,7 @@ public class Threading_extends_Thread {
     }
 
     public static void main(String[] args) {
-        MyThreading myThreading=new MyThreading();
+        Thread myThreading=new Thread(new MyThreading());
         myThreading.start();
     }
 }

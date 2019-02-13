@@ -1,4 +1,4 @@
-package multi_threading;
+package multi_threading_create;
 
 /**
  * 守护线程当进程不存在或主线程停止，守护线程也会被停止
