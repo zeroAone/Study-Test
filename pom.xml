@@ -10,8 +10,8 @@
     <modules>
         <module>test_springboot</module>
         <module>test_scala</module>
-        <module>test_scala</module>
-        <module>test_scala</module>
+        <module>demo</module>
+        <module>test_threading</module>
     </modules>
 
 </project>

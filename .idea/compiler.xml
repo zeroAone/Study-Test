@@ -10,6 +10,7 @@
         <module name="test_scala" />
         <module name="test_springboot" />
         <module name="test_springboot2" />
+        <module name="test_threading" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
