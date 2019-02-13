@@ -12,6 +12,7 @@
         <module>test_scala</module>
         <module>demo</module>
         <module>test_threading</module>
+        <module>test_java_base</module>
     </modules>
 
 </project>
